@@ -1,0 +1,69 @@
+
+.wrap {
+    width: 340px;
+    margin: 0 auto;
+}
+
+/* header */
+/* .header {
+    width: 375px;
+    height: 40px;
+    margin: 0 auto;
+} */
+
+.header h2 {
+    display: flex;
+    align-items: center;
+    margin: 20px;
+    height: 40px;
+    justify-content: center;
+
+}
+
+/* reviewImg */
+.bgImg {
+    background-color: blue;
+    width: 375px;
+    height: 254px;
+    margin: 0 auto;
+    position: relative;
+}
+
+/* category */
+.category {
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: flex;
+    flex: 1;
+    text-align: center;
+}
+
+.category .item1, .item2, .item3 {
+    width: 125px;
+    height: 254px;
+    padding: 110px 0;
+}
+
+
+.category .item1:focus {
+    width: 375px;
+    height: 254px;
+}
+
+
+/* footer */
+.footer {
+
+}
+
+.footer p {
+    width: 375px;
+    height: 60px;
+    margin: 0 auto;
+    padding: 22px;
+    color: #fff;
+    background-color: #4EACF7;
+    text-align: center;
+}
+
